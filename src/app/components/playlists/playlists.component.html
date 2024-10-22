@@ -1,0 +1,11 @@
+<div class="container f-j-c f-wrap f-d-col">
+    <div class="header-container f-j-c docs-navbar">
+        <p class="mat-title-large">{{featuredPlaylistsName$ | async}}</p>
+    </div>
+    <app-filter-playlists class="f-as-end"></app-filter-playlists>
+    <div class="cards f-j-se f-wrap f-gap-50">
+        @for (playlist of (featuredPlaylists$ | async); track playlist.id) {
+            <app-playlist [playlist]="playlist"></app-playlist>
+        }
+    </div>
+</div>

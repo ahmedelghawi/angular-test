@@ -1,0 +1,35 @@
+.f-j-se {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f-j-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.f-j-c {
+    display: flex;
+    justify-content: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-gap-50 {
+    gap: 50px;
+}
+
+.f-d-col {
+    flex-direction: column;
+}
+
+.f-as-end {
+    align-self: flex-end;
+}
+
+.f-as-center {
+    align-self: center;
+}

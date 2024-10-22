@@ -1,0 +1,11 @@
+$default-margin: 20px;
+
+.container {
+}
+
+.header-container {
+    padding-top: $default-margin;
+    background-color: #004f4f;
+    width: 100%;
+    margin-bottom: $default-margin;
+}

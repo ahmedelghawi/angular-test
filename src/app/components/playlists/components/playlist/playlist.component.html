@@ -1,0 +1,17 @@
+<mat-card appearance="outlined">
+    <mat-card-header>
+        <mat-card-title-group>
+            <mat-card-title class="mat-headline-medium">{{playlist?.name}}</mat-card-title>
+            <mat-card-subtitle class="mat-title-large">{{playlist?.curator_name}}</mat-card-subtitle>
+        </mat-card-title-group>
+    </mat-card-header>
+    <img mat-card-image [src]="playlist?.artwork" alt="Can't load image" />
+    <mat-card-content>
+    </mat-card-content>
+    <mat-card-actions>
+        <a mat-fab extended [href]="playlist?.url" target="_blank" class="mat-title-large">
+            <mat-icon>arrow_outward</mat-icon>
+            Preview
+        </a>
+    </mat-card-actions>
+</mat-card>

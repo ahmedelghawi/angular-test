@@ -1,0 +1,17 @@
+.mat-mdc-card {
+    border-radius: 5px;
+    max-width: 400px;
+
+    .mat-mdc-card-title-group {
+        .mat-mdc-card-title {
+            font-weight: 300;
+        }
+        .mat-mdc-card-subtitle {
+            color: $apple-red;
+        }
+    }
+    
+    .mat-mdc-card-image {
+        transform: scale(0.85);
+    }
+}
